@@ -48,6 +48,12 @@
 			padding-left: 20px;
 		}
 	}
+	&__list-phone{
+		display: none;
+	}
+	&__btn{
+		display: none;
+	}
 }
 
 .top {
@@ -151,7 +157,7 @@
 	right: 0;
 	cursor: pointer;
 	z-index: 5;
-	bottom: -45px;
+	bottom: -48px;
 	transition: background-color 0.2s linear;
 	svg {
 		stroke: #1c1c1c;
